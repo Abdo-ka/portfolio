@@ -9,7 +9,7 @@ export const Footer: FC<FooterProps> = ({}) => {
     <footer className="flex flex-col items-center justify-center gap-10 text-xl">
       <div className="xs:gap-2 flex flex-row flex-wrap items-start justify-center text-xl">
         <FooterLink
-          href={"mailto:contact@islamnaasani.com"}
+          href={"mailto:contact@kanawatiabdalrahman@gmail.com"}
           gradientProps={{ className: "from-red-700 to-orange-500" }}
         >
           <Mail aria-label="Email" />
@@ -22,13 +22,13 @@ export const Footer: FC<FooterProps> = ({}) => {
         </FooterLink>
         <FooterLink
           gradientProps={{ className: "from-blue-900 to-blue-600" }}
-          href={"https://www.linkedin.com/in/islam-nassani"}
+          href={"https://www.linkedin.com/in/Abdo_Ka"}
         >
           <Linkedin aria-label="LinkedIn" />
         </FooterLink>
         <FooterLink
           gradientProps={{ className: "from-blue-300 to-blue-400" }}
-          href={"https://bsky.app/profile/islamnaasani.com"}
+          href={"https://bsky.app/profile/test.com"}
         >
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 511.999 452.266">
             <path

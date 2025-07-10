@@ -7,13 +7,13 @@ import RSS from "rss";
 
 async function generateRssFeed() {
   const feed = new RSS({
-    title: "Islam Naasani Blog",
+    title: "Abd Alrahman Kanawati Blog",
     description: "My personal Blog, I write about problems I've faced or new things I've learned.",
     feed_url: `${process.env.NEXT_PUBLIC_CONVERTKIT_API_KEY}/rss.xml`,
     site_url: process.env.NEXT_PUBLIC_WEBSITE_URL,
     language: "en",
     pubDate: new Date(),
-    copyright: `All rights reserved ${new Date().getFullYear()}, Islam Naasani`,
+    copyright: `All rights reserved ${new Date().getFullYear()}, Abd Alrahman Kanawati`,
   });
 
   const files = readdirSync(getPublicPath("content/blog"), "utf8");
@@ -43,7 +43,7 @@ async function generateRssFeed() {
       date: post.publishedAt,
       description: post.summary,
       categories: post.tags,
-      author: "Islam Naasani",
+      author: "Abd Alrahman Kanawati",
     }));
 writeFileSync(getPublicPath('rss.xml'), feed.xml());
   console.log("RSS feed generated successfully!");

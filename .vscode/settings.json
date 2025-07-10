@@ -1,3 +1,23 @@
 {
-  "typescript.tsserver.experimental.enableProjectDiagnostics": true
+  "typescript.tsserver.experimental.enableProjectDiagnostics": true,
+  "workbench.colorCustomizations": {
+    "activityBar.activeBackground": "#173244",
+    "activityBar.background": "#173244",
+    "activityBar.foreground": "#e7e7e7",
+    "activityBar.inactiveForeground": "#e7e7e799",
+    "activityBarBadge.background": "#a7387b",
+    "activityBarBadge.foreground": "#e7e7e7",
+    "commandCenter.border": "#e7e7e799",
+    "sash.hoverBorder": "#173244",
+    "statusBar.background": "#0a161e",
+    "statusBar.foreground": "#e7e7e7",
+    "statusBarItem.hoverBackground": "#173244",
+    "statusBarItem.remoteBackground": "#0a161e",
+    "statusBarItem.remoteForeground": "#e7e7e7",
+    "titleBar.activeBackground": "#0a161e",
+    "titleBar.activeForeground": "#e7e7e7",
+    "titleBar.inactiveBackground": "#0a161e99",
+    "titleBar.inactiveForeground": "#e7e7e799"
+  },
+  "peacock.color": "#0a161e"
 }

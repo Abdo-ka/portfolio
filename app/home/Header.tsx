@@ -17,7 +17,7 @@ export const Header: FC<HeaderProps> = ({}) => {
           dragMomentum
           dragSnapToOrigin
         >
-          Islam Naasani
+          Abd Alrahman Kanawati
         </motion.h1>
         <p className="text-sm text-muted-foreground">Software Engineer</p>
       </motion.header>

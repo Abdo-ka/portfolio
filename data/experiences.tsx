@@ -12,14 +12,32 @@ export type Experience = {
 };
 export const EXPERIENCES: Experience[] = [
   {
-    title: "React Developer",
+    title: "Consultant Flutter Developer",
+    company: (
+      <Link target="_blank" href="https://www.linkedin.com/company/castlescode/">
+        Castles Code
+      </Link>
+    ),
+    location: "Dubai, UAE (Remote)",
+    from: "2021-3",
+    to: "2024-11",
+    description: (
+      <>
+        <p>
+        Training and teaching new students to make app from scratch on Flutter framework
+        </p>
+      </>
+    ),
+  },
+  {
+    title: "Flutter Developer",
     company: (
       <Link target="_blank" href="http://www.ulutech-sy.com/">
         Ulutech
       </Link>
     ),
     location: "Aleppo, Syria",
-    from: "2022-10",
+    from: "2021-10",
     to: "2022-12-8",
     description: (
       <>
@@ -28,48 +46,90 @@ export const EXPERIENCES: Experience[] = [
           <a href="https://play.google.com/store/apps/details?id=com.nbs.alphameal&hl=en&pli=1">
             HumyApp
           </a>
-          's dashboard development.{" "}
+          's Application development.{" "}
         </p>
       </>
     ),
   },
   {
-    title: "Front-end Developer",
-    company: "CLICK Online",
+    title: "Mobile Application Developer",
+    company: "Maktabi LTD",
     location: "Aleppo, Syria",
-    from: "2022-12",
-    to: "2023-12",
+    from: "2022-2",
+    to: "2023-3",
     description: (
       <>
         <div>
           <p>
-            {`I was the sole front-end developer, where I built the admin dashboard and the web app of `}
-            <a href="https://safra-binakra.com/">Safra Binakra</a>.
+          Built a religious app that amassed a user base of over 
+            <strong>1M </strong>
+            <p>{'on Google Play'}</p>
+            <a href="https://play.google.com/store/apps/details?id=com.thewaytoheaveen.eslamicapp&hl=en_US">The Way To Heaven</a>.
           </p>
         </div>
       </>
     ),
   },
   {
-    title: "Front-end Developer",
+    title: "Mobile Application Developer",
     company: (
-      <Link target="_blank" href="https://studio20.my/">
-        Studio20
+      <Link target="_blank" href="https://www.linkedin.com/company/jacksi/">
+        Jacksi LTD 
       </Link>
     ),
-    location: "Kuala Lumpur, Malaysia (Remote)",
-    from: "2024-2-1",
-    to: null,
+    location: "Erbil, Iraq (Remote)",
+    from: "2023-4",
+    to: "2024-7",
     description: (
       <div>
         <p>
           Led the development of multiple projects and actively contributed to
           others, most notably{" "}
-          <a href="https://hotelsentral.com.my/">Hotel Sentral</a> PMS,{" "}
-          <a href="https://www.ckpartners.com.my/">CKP</a> Portal and
-          HappieToken.
+         Car Market
+        </p>
+      </div>
+    ),
+  },
+  {
+    title: "Flutter Developer – Team Lead",
+    company: (
+      <Link target="_blank" href="https://www.linkedin.com/company/rzain/">
+        Rzain 
+      </Link>
+    ),
+    location: "istanbul , Türkiye(Remote)",
+    from: "2024-7",
+    to: "2025-1",
+    description: (
+      <div>
+        <p>
+          Led the development of multiple projects and actively contributed to
+          others, most notably{" "}
+         Car Market
+        </p>
+      </div>
+    ),
+  },
+  {
+    title: "Mobile AppLication Developer",
+    company: (
+      <Link target="_blank" href="https://www.architweb.com/">
+        ArchitWeb 
+      </Link>
+    ),
+    location: "Cyberjaya, Selangor, Malaysia (Remote)",
+    from: "2025-3",
+    to: null,
+    description: (
+      <div>
+        <p>
+        Led the development of multiple Flutter projects, communicating directly with clients
+         to understand their needs, align on requirements, 
+         and propose improvements for better outcomes.
         </p>
       </div>
     ),
   },
 ];
+
+

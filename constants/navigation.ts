@@ -1,6 +1,6 @@
 export const navigation = [
   {
-    name: "Islam Naasani",
+    name: "Abd Alrahman Kanawati",
     href: "/",
     color: "rgb(99 102 241)",
     startWith: false,

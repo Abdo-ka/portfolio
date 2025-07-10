@@ -8,7 +8,7 @@ import { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Projects | Islam Naasani",
+  title: "Projects | Abd Alrahman Kanawati",
 };
 
 export default async function Page() {

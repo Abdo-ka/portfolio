@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://islamnaasani.com/sitemap.xml
+Sitemap: https://abdalrahmankanawati.com/sitemap.xml

@@ -6,7 +6,7 @@ import { Header } from "./home/Header";
 import { Projects } from "./home/Projects";
 
 export const metadata: Metadata = {
-  title: "Islam Naasani",
+  title: "Abd Alrahman Kanawati",
   description: "Software Engineer",
   icons: ["/favicon.ico"],
 };
