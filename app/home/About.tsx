@@ -4,7 +4,7 @@ export const About: FC<AboutProps> = ({}) => {
   return (
     <section className="flex-1 py-3 sm:text-lg">
       <p>
-      I’m a software engineer with 4+ years of experience, specializing in Mobile Application,like reading book and cooking.
+      I’m a software engineer with 4+ years of experience, specializing in Mobile Application,like reading book and cooking, interested in Dev Ops.
       </p>
       <p className="mt-2">
         Sometimes, I share new learnings or encountered problems.{" "}

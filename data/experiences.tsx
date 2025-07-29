@@ -61,9 +61,9 @@ export const EXPERIENCES: Experience[] = [
       <>
         <div>
           <p>
-          Built a religious app that amassed a user base of over 
+          Built a religious app that amassed a user base of over {" "}
             <strong>1M </strong>
-            <p>{'on Google Play'}</p>
+            on Google Play {" "}
             <a href="https://play.google.com/store/apps/details?id=com.thewaytoheaveen.eslamicapp&hl=en_US">The Way To Heaven</a>.
           </p>
         </div>
@@ -84,8 +84,7 @@ export const EXPERIENCES: Experience[] = [
       <div>
         <p>
           Led the development of multiple projects and actively contributed to
-          others, most notably{" "}
-         Car Market
+          others, most notably Car Market
         </p>
       </div>
     ),
